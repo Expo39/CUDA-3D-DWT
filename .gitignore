@@ -1,0 +1,96 @@
+# Build directories
+build/
+bin/
+obj/
+
+# Compiled Object files
+*.o
+*.obj
+*.cu.o
+
+# Executables
+*.exe
+*.out
+*.app
+DWT
+dwt
+
+# CUDA compiled files
+*.cubin
+*.ptx
+*.fatbin
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+gmon.out
+
+# Profiling files
+*.prof
+*.nvprof
+*.nvvp
+*.nsys-rep
+*.qdrep
+
+# NVIDIA Nsight files
+*.nsight-cuprof-result
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# CLion
+.idea/
+cmake-build-*/
+
+# Makefiles generated files
+Makefile.deps
+.deps/
+
+# Data files (if large)
+data/
+data/inputs/*.bin
+data/outputs/*.bin
+*.dat
+*.raw
+
+# Shell scripts
+*.sh
+
+# Temporary files
+*.tmp
+*.temp
+*~
+.DS_Store
+Thumbs.db
+
+# LaTeX auxiliary files
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.xdv
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# SLURM output files
+slurm-*.out
+*.err
+
+# Core dumps
+core.*
